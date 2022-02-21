@@ -8,16 +8,16 @@ from distutils.util import strtobool
 dpat_int = r'\d+'
 let_pat = r'[A-Z]'
 right_answers = [
-    1499,
+    1499.0,
     1.325e-19,
-    13,
+    13.0,
     False,
     {'D', 'E'},
     {'C'},
     {'D'},
     True,
     1.221e-20,
-    -1
+    -1.0
 ]
 
 i = 0
